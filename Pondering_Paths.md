@@ -42,4 +42,7 @@ Here we are basically understanding why we are using implicit relative paths. We
 
 ## Home sweet home
 
+In this problem, we are first moving into our root directory. Then, we run the command to get the flag by storing our solution in the file h, while making use of the ~ command.
+![image](https://github.com/user-attachments/assets/64f12449-bfde-45fe-88c7-0a9e9ca0e8a2)
+
 
