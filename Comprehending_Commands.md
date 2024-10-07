@@ -29,10 +29,25 @@ We can use the 'rm' command to delete files. In this problem, we simply use the 
 ![image](https://github.com/user-attachments/assets/51dbbfc8-b777-428c-8c65-a78556cefd2d)
 
 ## Hidden files
-First I checked the list of files usinf 'ls'. Then, I used 'ls -a' to check the hidden files that begin with a fullstop. Then I used the 'cat' command to find the flag.
+First I checked the list of files using 'ls'. Then, I used 'ls -a' to check the hidden files that begin with a fullstop. Then I used the 'cat' command to find the flag.
 ![image](https://github.com/user-attachments/assets/a0d2bf1f-a340-4e4a-bfb1-e309bd839808)
 
 ## An epic filesystem quest
 This was a pretty long task compared to the previous ones. After about a dozen times of 'ls-ing' and 'cat-ing' I finally found the flag. Some hints did not allow cd to be used, while some were stored in hidden files that had to be accessed using 'ls -a'
 ![image](https://github.com/user-attachments/assets/4092a5f2-5a30-4c54-bdd3-b66270bbeef9)
+
+## Making directories
+First, I changed directories to the home directory. Then I traversed to the folder tmp, and created a directory using 'mkdir'. in that directory I created a file using 'touch'. Successfully doing these steps gave me the flag.
+![image](https://github.com/user-attachments/assets/561ec0a2-fd2e-4aad-be8a-dafabb2bec31)
+
+## Finding files
+
+Initially, I used the find command to search for a file called flag. This gave me multiple results. I searched through all the directories, navigating through them using 'cd' and looking at the contents of files using 'ls'. Finally I found the flag in the correct format in a file.
+![image](https://github.com/user-attachments/assets/9eede3ce-f6e4-4160-9865-284711efaccf)
+
+## Linking files
+
+I linked the flag file to the not-a-flag file by using the command 'ln -s'. Soft linking or symlinking was used here which redirected the not-a-flag file to the flag file. Then, I could read the flag using that given command.
+![image](https://github.com/user-attachments/assets/38efcab6-a276-4d22-bc33-8ca23f527f12)
+
 
