@@ -36,3 +36,5 @@ The user can provide input using the read command. If the "-p" command is also u
 ![image](https://github.com/user-attachments/assets/56661fc7-64fa-45b6-b1b9-7c21734871c8)
 
 ## Reading Files
+We read the PWN variable which has been redirected. This gives us the key.
+![image](https://github.com/user-attachments/assets/c4f0e0e1-4c9f-4648-91da-62b56a1279a1)
